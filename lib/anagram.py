@@ -5,8 +5,9 @@ class Anagram:
     def __init__(self, word):
         self.word = word
     
+    #pass in the words as the argument. 
     def match(self,words):
-        match = [letter for letter in words if sorted  (letter) == sorted(self.word)]
+        match = [lists for lists in words if sorted(lists) == sorted(self.word)]
         return match 
     
     
